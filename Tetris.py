@@ -1,12 +1,8 @@
 import os
 
-#I did not write this |
-#                     v
-
 def resource_path(relative_path):
-
+    # Stolen from stack overflow from 2021
     base_path = os.path.abspath(".")
-
     return os.path.join(base_path, relative_path)
 
 #--------------------------------------------------
